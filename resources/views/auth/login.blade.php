@@ -73,7 +73,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <p>bailee33@example.ne</p>
+                            <p>bailee33@example.net</p>
                             <p>123456</p>
                         </div>
                         <div class="modal-footer">
