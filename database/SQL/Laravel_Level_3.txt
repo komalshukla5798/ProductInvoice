@@ -1,0 +1,23 @@
+Laravel:
+
+1. CRUD functionality Create / Read / Update / Delete for the 2 menu items Companies and Employees
+
+2. Companies DB table with following fields: 
+Name (required), email, logo (minimum 100×100), website
+
+3. Employees DB table with following fields: 
+First name (required), last name (required), Company (foreign key to Companies), email, phone
+
+4. Use database migrations to create those schemas form Companies and Employees table
+
+5. Store companies logos in storage/app/public folder and make them accessible from public
+
+6. Use basic Laravel resource controllers with default methods – index, create, store etc.
+
+7. Use Laravel’s validation function, using Request classes
+
+8. Use Laravel’s pagination for showing Companies/Employees list, 5 entries per page for both
+
+Time: Estimated 3 hours
+
+

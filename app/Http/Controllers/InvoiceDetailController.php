@@ -5,10 +5,12 @@ namespace App\Http\Controllers;
 use App\Models\InvoiceDetail;
 use App\Models\InvoiceMaster;
 use App\Models\ProductMaster;
+use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Carbon;
+use App\Models\User;
 
 class InvoiceDetailController extends Controller
 {
@@ -20,7 +22,7 @@ class InvoiceDetailController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
-        error_reporting(0);
+        // error_reporting(0);
     }
 
     /**
@@ -48,7 +50,12 @@ class InvoiceDetailController extends Controller
      */
     public function create()
     {
-        //
+        $product = Product::create([
+            'name' => 'Platinum 1',
+            'price' => 10
+        ]);
+        dd($product);
+        dd(User::skip(2)->take(5)->toSql());
     }
 
     /**

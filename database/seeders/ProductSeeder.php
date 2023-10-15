@@ -16,11 +16,11 @@ class ProductSeeder extends Seeder
     {
         ProductMaster::truncate();
 		$products = array(
-			array('Product_Name' => 'Product 1', 'Rate' => 10.99 ,'Unit' => 'Pieces'),
-            array('Product_Name' => 'Product 2', 'Rate' => 26.65 ,'Unit' => 'Kilograms'),
-            array('Product_Name' => 'Product 3', 'Rate' => 90.58 ,'Unit' => 'Grams'),
-            array('Product_Name' => 'Product 4', 'Rate' => 68.87 ,'Unit' => 'Kilograms'),
-            array('Product_Name' => 'Product 5', 'Rate' => 59.33 ,'Unit' => 'Kilograms'),
+			array('Name' => 'Product 1', 'Rate' => 10.99 ,'Unit' => 'Pieces'),
+            array('Name' => 'Product 2', 'Rate' => 26.65 ,'Unit' => 'Kilograms'),
+            array('Name' => 'Product 3', 'Rate' => 90.58 ,'Unit' => 'Grams'),
+            array('Name' => 'Product 4', 'Rate' => 68.87 ,'Unit' => 'Kilograms'),
+            array('Name' => 'Product 5', 'Rate' => 59.33 ,'Unit' => 'Kilograms'),
 			);
 		ProductMaster::insert($products);
     }

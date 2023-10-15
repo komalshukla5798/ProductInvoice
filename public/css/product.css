@@ -1,0 +1,65 @@
+.togglebutton label input[type=checkbox]:checked+.toggle {
+    background-color: #4caf50;
+}
+.card-header a {
+    color: #fff;
+    float: right;
+}
+.card {
+    margin-bottom: 0px;
+ } 
+.form-control, label, input::placeholder {
+    line-height: inherit;
+}
+.form-control {
+    border: 1px solid #d3c6c6;
+    padding-left: 9px;
+} 
+@media (max-width: 991px){
+    body {
+        position: unset;
+    }  
+}
+.input-group-append {
+    border: 1px solid #d3c6c6;
+}
+.product_details,.amount_details{
+    /*display: none;*/
+}
+.form-control, .is-focused .form-control {
+    background-image: none;
+}
+.table-bordered{
+    border: 1px solid #9c27b0;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+    border-color: #9c27b0;
+    text-align: center;
+}
+.list-table>thead>tr>th, .list-table>tbody>tr>th, .list-table>tfoot>tr>th, .list-table>thead>tr>td, .list-table>tbody>tr>td, .list-table>tfoot>tr>td{
+    border-color: #00bcd4;
+    text-align: center;
+}
+.list-table {
+    border: 1px solid #00bcd4;
+}
+.view-table>thead>tr>th, .view-table>tbody>tr>th, .view-table>tfoot>tr>th, .view-table>thead>tr>td, .view-table>tbody>tr>td, .view-table>tfoot>tr>td{
+    border-color: #eea236;
+    text-align: center;
+}
+.view-table {
+    border: 1px solid #eea236;
+}
+th {
+    width: 143px;
+    border-color: #9c27b0;
+}
+.select2-container {
+  z-index: 10000; 
+}
+#final_submit{
+    display: none;
+}
+.error{
+    color: red;
+}

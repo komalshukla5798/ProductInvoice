@@ -1,6 +1,20 @@
 ## Installation
 
 - Change database configurations in .env.
+- Import product_category.sql in MySQL DB which is given in root folder. or you can perform database operation by running the below commands inside the powershell window of root folder
+- `php artisan migrate`
+- Now Run `php artisan serve` and go to http://localhost:8000/
+- Click on the `Help?` button and Click on `Seed Database` or You can run below Command
+- `php artisan db:seed`
+- Click on the `Help?` and Login with given credentials
+- Go to `Products CRUD`, and Click on the Plus icon to create new Product.
+- You can also manage existing products with view, update and delete functionality.
+- Status Can changed by switch inside the table.
+- Preview Image with fancybox.
+
+## Installation
+
+- Change database configurations in .env.
 - Import product_invoice.sql in your DB which is given in root folder. or you can perform database operation by running the below commands in the root folder
 - php artisan migrate
 - `php artisan db:seed`
